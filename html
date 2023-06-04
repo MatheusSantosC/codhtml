@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title> te amo </title>
+       
+    </head>
+
+    <body>
+      <body style="background-color: rgb(0, 0, 0);"
+   
+      <center><h1 style="color:white":> Te Amo</h1></center>
+      <br>
+      <br>
+      <center><img src="imag1.gif" width="600" height="600" /></center>
+      
+      <div class="content-coracao">
+        <div class="square"></div>
+        <div class="circle"></div>
+        
+      </div>
+            
+    
+
+
+
+
+    </body>
+
+    <style>
+
+.content-coracao {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin: 50px auto;
+  -webkit-animation: pulsa 1s linear 0s infinite;
+}
+@keyframes pulsa {
+  0% {
+    transform: scale(0.9) rotate(0deg);
+  }
+  50% {
+    transform: scale(1) rotate(0deg);
+  }
+  70% {
+    transform: scale(1.1) rotate(0deg);
+  }
+  80% {
+    transform: scale(1.2) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+.square {
+  transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+  background: #e71940;
+  position: absolute;
+  top: 30px;
+}
+.circle:after,
+.circle:before {
+  content: "";
+  position: absolute;
+  width: 54px;
+  height: 55px;
+  border-radius: 50%;
+  background: #e71940;
+}
+.circle:after {
+  left: 5px;
+  top: 6px;
+}
+.circle:before {
+  right: 5px;
+  top: 6px;
+}
+
+
+
+    </style>
+</html>
